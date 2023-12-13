@@ -1,0 +1,102 @@
+body{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+.topnav a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.active {
+    color: #019769;
+    font-weight: bold;
+  }
+  .topnav a.color {
+    color: black;
+    font-weight: bold;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .a button{
+    width: 100px;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    margin-top: 12px;
+    color: white;
+    background-color: #019769;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 7rem;
+  }
+  .cercle{
+    width: 300px;
+    height: 300px;
+    background-color: #87d9c0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cadre{
+    width: 250px;
+    height: 230px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .cercle img{
+    width: 170px;
+    height: 250px;
+    position: absolute;
+    object-fit: cover;
+    margin-bottom: 1.3rem;
+  }
+  .contenant .cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .bu{
+    display: flex;
+  }
+  .bu button{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: white;
+    background-color: #019769;
+    border: none;
+  }
+  .bu p{
+    margin-left: 2rem;
+    align-items: center;
+  }
+  .bu button i{
+    margin-left: 1rem !important;
+  }
+  .bold{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .color{
+    color: #019769;
+  }
